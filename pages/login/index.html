@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/globalStyles.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/img.css">
+    <link rel="stylesheet" href="/styles/inputs.css">
+    <link rel="shortcut icon" href="/assets/img/background/logo.png" type="image/x-icon">
     <title>Login</title>
 </head>
+
 <body>
+    <img src="/assets/img/background/background_img.png" alt="">
+    <section class="container_main" id="container">
+        <section class="title_left color-grey-4" id="title">
+        </section>
+        <ul class="div_title">
+            <li>
+                <h1>Lets see the space togeter?</h1>
+            </li>
+            <li>
+                <p id="paragrafo">
+                    The civil space program will prove to you that the earth is not flat and show you the whole
+                    universe!</p>
+            </li>
+        </ul>
+        <aside class="login_rigth color-primary" id="login">
+        </aside>
+    </section>
+    <div class="img_foguete">
+        <img src="/assets/img/background/foguete.png" alt="">
+    </div>
+    <form class="container_login">
+        <h2 class="h2 font-weigth-2 font-size-1">Sign in</h2>
+        <div class="container_inputs">
+            <label class="email_label" for="e-mail">E-mail</label>
+            <input class="email_input" type="email" name="email" id="email" required="true"
+                placeholder="Type your e-mail here...">
+            <label class="senha_label" type="password" for="password">Password</label>
+            <input class="senha_input" type="password" name="senha" id="password" required="true"
+                placeholder="Type your password here...">
+            <button class="button_forgot_password" id="forgot_password" type="submit">Forgot password? Click here!</button>
+            <div class="div_button_login">
+                <button class="button_login">Login</button>
+            </div>
+        </div>
+    </form>
     <script src="/scripts/modal.js"></script>
 </body>
+
 </html>
+

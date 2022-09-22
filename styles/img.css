@@ -1,0 +1,24 @@
+body img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.img_foguete {
+    position: fixed;
+    bottom: 90px;
+    left: 475px;
+    
+}
+
+.img_foguete img {
+    width: 100%;
+    height: 300px;
+    transition: 0.7s;
+}
+
+.img_foguete img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
